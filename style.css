@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    scroll-behavior: smooth;
+}
+
+/* ----Navbar----------- */
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./ec65e57931c1a36379bf02f669ba8fb5.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: white;
+        left: 420px;
+        position: relative;
+        top: 361px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    display: block;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: .3s;
+}
+
+button {
+    border: none;
+    background-color: brown;
+    padding: 13px 30px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+
+
+/* ---------about me--------- */
+
+
+
+.side-bar {
+    position: relative;
+    margin-left: 92%;
+    top: -450px;
+
+}
+
+#side-bar span a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#about {
+    background-color: rgb(58, 141, 187);
+    height: 90vh;
+}
+
+
+.about-col2 h1 {
+    font-size: 40px;
+    background-color: white;
+    display: inline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+.about-col1 img {
+    margin-left: 74%;
+    top: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.about-col2 {
+    text-align: center;
+    right: 250px;
+    position: relative;
+    top: -400px;
+
+}
+
+.about-col2 span {
+    color: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 130px;
+    text-indent: 50px;
+    letter-spacing: 1px;
+}
+
+/* -------------projects -------------------------------- */
+
+
+#project {
+    background-color: rgb(9, 26, 69);
+    position: relative;
+    height: 180vh;    
+
+}
+
+.project-title1 {
+    text-align: end;
+    position: relative;
+    right: 390px;
+    top: 300px;
+    
+}
+
+.project-title2 {
+    position: relative;
+    left: 340px;
+    top: 280px;
+}
+
+.pro-header h1 {
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    font-size: 40px;
+}
+
+.split-title {
+    top: -220px;
+    position: absolute;
+    color: black;
+    
+}
+
+.pro-pictures img {
+    position: relative;
+    width: 20%;
+    background-color: blue;
+}
+
+.picture-1 img {
+    margin-left: 40%;
+    margin-right: 70%;
+    border-radius: 8px;
+
+}
+
+.picture-2 img {
+    margin-left: 30%;
+    margin-right: 70%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.picture-3 img {
+    margin-left: 20%;
+    margin-right: 70%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.header {
+    display: block;
+    left: 320px;
+    position: absolute;
+    top: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    
+}
+
+#project {
+    border-top: 5px dashed white;
+}
+
+.project-details {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 300px;
+    left: 50%;
+    top: 140px;
+    position: absolute;
+    border: 5px dashed rgb(93, 40, 40);
+}
+
+.project-details span {
+    color: white;
+    animation: travel 4s infinite;
+    
+}
+
+.picture-4 img {
+    margin-left: 40%;
+    margin-right: 70%;
+    border-radius: 8px;
+
+}
+
+.picture-5 img {
+    margin-left: 50%;
+    margin-right: 70%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.picture-6 img {
+    margin-left: 60%;
+    margin-right: 70%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.project-body span {
+    color: white;
+    animation: laravel 5s infinite;
+}
+
+.pro-body {
+    position: relative;
+    top: 202px;
+}
+
+.project-body {
+    margin-left: 10%;
+    margin-right: 50%;
+    top: 60%;
+    position: absolute;
+    right: 202px;
+    border: 5px dashed rgb(93, 40, 40);
+
+}
+
+
+/* -----------Skill--------------- */
+
+#skills {
+    border-top: 5px dashed white;
+    background-color: rgb(58, 141, 187);
+    height: 110vh;
+}
+
+.skill-output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    padding: 90px;
+    width: 60%;
+    position: relative;
+    left: 300px;
+    top: 200px;
+    background-color: white;
+    
+}
+
+.skill-output div img {
+    padding: 20px;
+    background-color: rgb(58, 141, 187);
+    
+    
+}
+
+.skill-output div {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(58, 141, 187);
+}
+
+.skills-title {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+
+
+
+
+
+/* ----------footer------------- */
+.footer {
+    height: 30px;
+    width: 100%;
+    background-color:  rgb(9, 26, 69);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+
+/* ----------Scripts------------ */
+
+.name-ch{
+    color: red;
+    font-size: 20px;
+    top: 400px;
+    position: relative;
+    left: 320px;
+
+}
+
+
+/* ------------animation------------ */
+
+@keyframes laravel {
+    from {color: whitesmoke; }
+    to {text-shadow: 1px 1px yellow;}
+  }
+
+  
+@keyframes travel {
+    from {color: ora;}
+    to {text-shadow: 1px 1px orange;}
+  }
