@@ -18,12 +18,12 @@
 }
 
 .hero1 {
-        font-size: 30px;
-        margin-bottom: 30px;
-        color: white;
-        left: 420px;
-        position: relative;
-        top: 361px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    left: 420px;
+    position: relative;
+    top: 361px;
 }
 
 nav {
@@ -144,7 +144,7 @@ button:hover {
 #project {
     background-color: rgb(9, 26, 69);
     position: relative;
-    height: 180vh;    
+    height: 180vh;
 
 }
 
@@ -153,7 +153,7 @@ button:hover {
     position: relative;
     right: 390px;
     top: 300px;
-    
+
 }
 
 .project-title2 {
@@ -174,7 +174,7 @@ button:hover {
     top: -220px;
     position: absolute;
     color: black;
-    
+
 }
 
 .pro-pictures img {
@@ -212,7 +212,7 @@ button:hover {
     font-size: 40px;
     color: white;
     text-shadow: 1px 1px 2px white;
-    
+
 }
 
 #project {
@@ -232,7 +232,7 @@ button:hover {
 .project-details span {
     color: white;
     animation: travel 4s infinite;
-    
+
 }
 
 .picture-4 img {
@@ -295,14 +295,15 @@ button:hover {
     left: 300px;
     top: 200px;
     background-color: white;
-    
+
 }
 
 .skill-output div img {
     padding: 20px;
     background-color: rgb(58, 141, 187);
-    
-    
+    border-radius: 30%;
+
+
 }
 
 .skill-output div {
@@ -326,13 +327,11 @@ button:hover {
 
 
 
-
-
 /* ----------footer------------- */
 .footer {
     height: 30px;
     width: 100%;
-    background-color:  rgb(9, 26, 69);
+    background-color: rgb(9, 26, 69);
     color: white;
     text-align: center;
     position: relative;
@@ -342,7 +341,7 @@ button:hover {
 
 /* ----------Scripts------------ */
 
-.name-ch{
+.name-ch {
     color: red;
     font-size: 20px;
     top: 400px;
@@ -354,13 +353,134 @@ button:hover {
 
 /* ------------animation------------ */
 
-@keyframes laravel {
-    from {color: whitesmoke; }
-    to {text-shadow: 1px 1px yellow;}
-  }
 
-  
+
+
+
+
+
+@keyframes laravel {
+    from {
+        color: whitesmoke;
+    }
+
+    to {
+        text-shadow: 1px 1px yellow;
+    }
+}
+
+
 @keyframes travel {
-    from {color: ora;}
-    to {text-shadow: 1px 1px orange;}
-  }
+    from {
+        color: ora;
+    }
+
+    to {
+        text-shadow: 1px 1px orange;
+    }
+}
+
+
+/* ------------media------------- */
+@media only screen and (max-width: 700px) {
+
+    .name-ch {
+        font-size: 20px;
+        top: 400px;
+        position: relative;
+        left: 190px;
+    }
+
+    .hero1 {
+        font-size: 30px;
+        left: 300px;
+        position: relative;
+        top: 361px;
+    }
+
+    .about-col2 img {
+        width: 230px;
+        margin-left: 8%;
+        margin-top: 8%;
+        position: absolute;
+
+    }
+
+    .about-col2 span {
+        text-align: center;
+        position: relative;
+        margin-left: 50%;
+        font-size: 11px;
+        left: -40px;
+    }
+
+    .about-col1 {
+        margin-right: 21%;
+        top: 120px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .about-col2 h1 {
+        left: 100px;
+        position: relative;
+        font-size: 30px;
+    }
+
+    .side-bar {
+        position: relative;
+        margin-left: 92%;
+        top: -350px;
+    }
+
+    .project-title1 {
+        left: -140px;
+        font-size: 12px;
+        top: 130px;
+    }
+
+    .project-title1 img {
+        margin-top: -1%;
+        left: -30px;
+    }
+
+    .project-title2 {
+        left: 130px;
+        font-size: 10px;
+        top: 80px;
+    }
+    .project-title2 img {
+        margin-left: -4%;
+    }
+
+    .project-details {
+        margin-left: 5%;
+        margin-top: 300px;
+        left: 50%;
+        top: -70px;
+        font-size: 12px;
+    }
+
+    .project-body {
+        margin-right: 5%;
+        margin-top: 300px;
+        right: 50%;
+        top: -120px;
+        font-size: 11px;
+    }
+
+    .picture-4 {
+        left: 30px;
+        position: relative;
+    }
+    #project {
+        background-color: rgb(9, 26, 69);
+        position: relative;
+        height: 120vh;
+    }
+    .skill-output {
+        left: 70px;
+    }
+}
+
+    
