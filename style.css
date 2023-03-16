@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+.blog-bg-rear {
+    background-image: linear-gradient(to top right,#3629a7,#c238be);
+}
+
 /* ----Navbar----------- */
 
 .hero {
